@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 233, 178);
+    min-width: 100vh;
+}
+
+nav{
+    background-color:  #333;
+    color: whitesmoke;
+    display: flex;
+    gap: 14.8vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    position: sticky;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+}
+nav li{
+    color: whitesmoke ;
+    text-decoration: none;
+}
+
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1.3rem;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+  
+.login-button {
+    padding: 6px;
+    background-color: blanchedalmond;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.login-button:hover {
+    background-color: rgb(164, 161, 158);
+    
+}
+
+.about ul{
+    display: flex;
+    flex-flow: column;
+    list-style:square;
+    gap: 5vh;
+    padding: revert;
+    margin: revert-layer;
+    font-size: larger;
+}
+.thank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #594c4c;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    
+}
+.genre{
+    text-decoration: underline;
+}
+
+/* Style the button that triggers the dropdown */
+.dropbtn {
+    background-color: blanchedalmond;
+    color: #333;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the container that holds the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the actual dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of links on hover */
+  .dropdown-content a:hover {
+    background-color:rgb(164, 161, 158);
+  }
+  
+  /* Show the dropdown content when the button is hovered over */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .jumbotron {
+    background-color: #710d0da8;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .jumbotron button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7194bb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .jumbotron button:hover {
+    background-color: #0056b3;
+  }
+  
